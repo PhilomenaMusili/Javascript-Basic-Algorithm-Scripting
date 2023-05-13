@@ -4,7 +4,7 @@ This repository contains a JavaScript function that calculates the factorial of 
 
 The `factorial` function takes a single argument `n`, representing the number for which we want to calculate the factorial. The function returns the factorial of `n`.
 
-To use the factorial calculator, simply call the `factorial` function and pass the desired number as an argument. The calculated factorial will be returned.
+To use  the factorial calculator, simply call the `factorial` function and pass the desired number as an argument. The calculated factorial will be returned.
 
 Example:
 ```javascript
