@@ -9,6 +9,7 @@ function chunkArrayInGroups(arr, size) {
       result.push(temp);
       temp = [];
     }
+    
   }
 
   if (temp.length !== 0) result.push(temp);
