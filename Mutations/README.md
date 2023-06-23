@@ -21,17 +21,26 @@ Call the mutation function with an array of two strings as an argument. The firs
   
 const result = mutation(["hello", "oleh"]);
 console.log(result); // Output: true
+
 In the above example, the mutation function will return true because all the characters in the test string "oleh" are present in the target string "hello".
 
 ## Function Explanation
+
 The mutation function performs the following steps to determine if all characters in the test string are present in the target string:
 
 Convert the test string to lowercase using .toLowerCase() to ensure case insensitivity.
+  
 Split the lowercase test string into an array of individual characters using .split("").
+  
 Iterate over each character in the test string using .every(function(letter) { ... }).
-Within the iteration, check if the current character exists in the target string by using .toLowerCase().indexOf(letter) !== -1. This returns true if the character is found and false otherwise.
+  
+Within the iteration, check if the current character exists in the target string by using .toLowerCase().indexOf(letter) !== -1.
+  
+  This returns true if the character is found and false otherwise.
+    
 The .every() method returns true if all characters in the test string are found in the target string, and false otherwise.
-## License
+
+  ## License
 This project is licensed under the MIT License.
 
 
