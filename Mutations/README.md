@@ -17,6 +17,7 @@ function mutation(arr) {
       return arr[0].toLowerCase().indexOf(letter) !== -1;
     });
 }
+
 Call the mutation function with an array of two strings as an argument. The first string represents the target string, and the second string represents the test string.
   
 const result = mutation(["hello", "oleh"]);
