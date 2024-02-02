@@ -16,7 +16,7 @@ To use the algorithms in this repository, follow these steps:
 4. Implement your solution to the problem within the designated function or code block.
 5. Test your solution with sample inputs and verify that it produces the expected outputs.
 
-Feel free to modify the algorithm folders or create new folders to practice and explore additional algorithmic concepts.
+Just feel free to modify the algorithm folders or create new folders to practice and explore additional algorithmic concepts.
 
 ## Contributions
 
@@ -24,4 +24,4 @@ Contributions to this repository are welcome! If you have a new algorithmic prob
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use the code in this repository for your own learning, personal projects, or any other purpose.
+This project is licensed under the [MIT License](LICENSE). Feel free to use the code in this repository for your own learning, personal projects, or any other.Thank you 
